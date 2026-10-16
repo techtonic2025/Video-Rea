@@ -1,0 +1,136 @@
+Voglio sviluppare un’applicazione desktop per Windows 11 ispirata alle funzionalità di Wispr Flow e della digitazione vocale di Windows, tramite reverse engineering funzionale delle caratteristiche pubblicamente osservabili.
+
+IMPORTANTE:
+Non voglio copiare il codice o la grafica proprietaria.
+Voglio un’app originale, moderna e realmente funzionante, ispirata al comportamento e all’esperienza d’uso di questi strumenti.
+
+L’app deve avere DUE interfacce distinte:
+
+1) MINI BARRA FLOTTANTE
+2) PANNELLO COMPLETO / IMPOSTAZIONI
+
+--------------------------------------------------
+1) MINI BARRA FLOTTANTE
+--------------------------------------------------
+
+La mini barra flottante è l’interfaccia principale, quella che compare quando l’utente attiva la dettatura.
+
+Deve essere:
+- piccola
+- elegante
+- moderna
+- minimale
+- sempre in primo piano durante l’uso
+- trascinabile
+- non invasiva
+
+Elementi richiesti nella mini barra:
+- pulsante microfono principale
+- stato della registrazione (attiva / non attiva)
+- piccola animazione o onda audio visibile mentre l’utente parla
+- indicatore della lingua/modalità attiva
+- icona per aprire il pannello completo (es. rotellina impostazioni)
+- eventuale pulsante rapido per cambiare modalità tra:
+  - trascrizione normale
+  - traduzione in inglese
+
+Comportamento richiesto:
+- quando l’utente attiva il microfono, la barra mostra chiaramente che sta ascoltando
+- mentre l’utente parla, deve comparire un’onda audio o visualizzatore sonoro animato
+- la mini barra deve essere il più possibile comoda per uso rapido
+- il testo deve essere inserito nell’applicazione attiva di Windows dove si trova il cursore
+
+--------------------------------------------------
+2) PANNELLO COMPLETO / IMPOSTAZIONI
+--------------------------------------------------
+
+Cliccando su una iconcina, ad esempio una rotellina nella mini barra, si deve aprire un pannello più grande e completo.
+
+Questo pannello serve per:
+- vedere le impostazioni
+- configurare la scorciatoia globale
+- scegliere lingua e modalità
+- accedere alle opzioni avanzate
+
+Il pannello completo deve includere:
+- area impostazioni generali
+- scelta lingua input
+- eventuale scelta lingua output
+- attivazione/disattivazione della traduzione
+- impostazioni scorciatoie da tastiera
+- opzioni microfono
+- preferenze di avvio automatico
+- cronologia o anteprima recente del testo dettato (opzionale ma gradita)
+- stato del modello o motore di trascrizione utilizzato
+- eventuale sezione info / about
+
+Design del pannello:
+- coerente con la mini barra
+- più moderno del classico pannello di Windows
+- tema scuro
+- look pulito e premium
+- angoli arrotondati
+- eventuale effetto vetro / trasparenza leggera
+- organizzazione chiara e professionale
+
+--------------------------------------------------
+FUNZIONALITÀ PRINCIPALI
+--------------------------------------------------
+
+L’app deve supportare realmente queste funzioni:
+
+1. Dettatura vocale in italiano
+2. Trascrizione del parlato in testo
+3. Inserimento automatico del testo nell’applicazione attiva di Windows
+4. Punteggiatura automatica e pulizia del testo
+5. Modalità traduzione:
+   - l’utente parla in italiano
+   - l’app inserisce direttamente il testo tradotto in inglese
+6. Scorciatoia globale da tastiera per avviare/interrompere la dettatura
+7. Possibilità di passare facilmente tra:
+   - trascrizione normale
+   - traduzione in inglese
+
+--------------------------------------------------
+REQUISITI TECNICI
+--------------------------------------------------
+
+Requisiti importanti:
+- non usare API a pagamento
+- preferire strumenti gratuiti e open source
+- se possibile usare modelli locali
+- deve essere una vera applicazione desktop Windows 11
+- non deve essere solo una demo grafica
+- microfono, trascrizione, traduzione e inserimento del testo devono funzionare davvero
+
+Valuta e scegli la tecnologia migliore per realizzare l’app.
+Puoi usare il framework che ritieni più adatto per Windows desktop, purché il risultato finale sia stabile e realmente usabile.
+
+--------------------------------------------------
+PROCESSO DI LAVORO RICHIESTO
+--------------------------------------------------
+
+1. Analizza i requisiti
+2. Proponi l’architettura tecnica
+3. Scegli stack e librerie
+4. Implementa prima la mini barra flottante
+5. Implementa poi il pannello completo richiamabile dalla rotellina
+6. Collega davvero il microfono, la trascrizione, la traduzione e l’inserimento testo
+7. Testa tutto ciò che puoi testare
+8. Indica chiaramente ciò che non sei riuscito a verificare
+
+--------------------------------------------------
+STILE VISIVO
+--------------------------------------------------
+
+Lo stile deve essere:
+- moderno
+- più bello e rifinito della digitazione vocale di Windows
+- ispirato alla semplicità di Wispr Flow
+- adatto a un prodotto software premium
+- essenziale ma curato
+
+Non copiare la grafica originale di Wispr Flow o Microsoft.
+Usa soltanto l’idea funzionale e crea una UI originale.
+
+L’obiettivo finale è ottenere un’app desktop Windows elegante e realmente utile, con una mini barra flottante intelligente e un pannello completo accessibile tramite icona impostazioni.

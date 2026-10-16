@@ -1,0 +1,17 @@
+Analizza attentamente questo repository GitHub:
+
+https://github.com/morluto/rea
+
+Leggi il README e la documentazione ufficiale di installazione.
+
+Voglio utilizzare REA (Reverse Engineer Anything) per un esperimento di reverse engineering di un'applicazione Windows.
+
+Verifica la compatibilità con Windows 11 e con il tuo ambiente di sviluppo.
+
+Configura REA seguendo le istruzioni ufficiali, rendendolo disponibile al tuo agente. Mantieni tutti i file del progetto che realizzeremo all'interno della cartella di lavoro attuale.
+
+Prima di modificare configurazioni globali o installare dipendenze, mostrami cosa intendi fare e chiedimi l'autorizzazione.
+
+Al termine verifica che REA sia effettivamente accessibile e funzionante. Non iniziare ancora a clonare l'applicazione.
+
+Indica chiaramente quali funzionalità di REA sono disponibili e quali non funzionano su Windows.
